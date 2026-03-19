@@ -1,76 +1,45 @@
-**# Fake News Detection using Machine Learning**
+# 📰 Fake News Detection using Machine Learning
 
-## Project Overview
+## 📌 Overview
+This project is a Machine Learning-based text classification system designed to detect fake news articles. It uses Natural Language Processing (NLP) techniques to preprocess text and classify news as real or fake.
 
-Fake News Detection is a machine learning project that identifies whether a news article is **Real** or **Fake**. The system analyzes the text of a news statement and predicts its authenticity using Natural Language Processing techniques.
+---
 
-## Problem Statement
+## 🚀 Features
+- Text preprocessing using NLP techniques
+- Tokenization, stopword removal, and normalization
+- TF-IDF feature extraction
+- Machine Learning model for classification
+- Predicts whether a news article is real or fake
 
-With the rapid spread of misinformation on the internet and social media, it has become difficult to verify the authenticity of news. This project aims to build a machine learning model that can automatically classify news as real or fake.
+---
 
-## Technologies Used
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Libraries:** Scikit-learn, Pandas, NumPy  
+- **Concepts:** NLP, Text Classification, TF-IDF  
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Natural Language Processing (NLP)
-* TF-IDF Vectorization
-* Logistic Regression
+---
 
-## Dataset
+## ⚙️ How It Works
+1. Data cleaning and preprocessing  
+2. Tokenization and stopword removal  
+3. Feature extraction using TF-IDF  
+4. Training classification model  
+5. Prediction on new input  
 
-The dataset contains labeled news articles categorized as **Real** and **Fake**.
-It is used to train the machine learning model to recognize patterns in news text.
+---
 
-## Methodology
+## 📊 Results
+- Achieved reliable prediction performance on a real-world dataset  
+- Model effectively distinguishes between fake and real news  
 
-1. Data Collection
-2. Data Cleaning and Text Preprocessing
-3. Feature Extraction using TF-IDF
-4. Model Training using Logistic Regression
-5. Model Evaluation using Accuracy, Precision, Recall, and F1-score
-6. Deployment using github
+---
 
-## Model Evaluation
-
-The model performance is evaluated using:
-
-* Accuracy Score
-* Classification Report
-  
-
-## How to Run the Project
-
-1. Install required libraries
-
-```
-pip install pandas numpy scikit-learn flask
-```
-
-2. Run the training script
-
-```
-python train_model.py
-```
-
-3. using guthub
-```
-
-## Output
-
-The system takes a news statement as input and predicts whether it is:
-
-* **Real News**
-* **Fake News**
-
-## Future Improvements
-
-* Use Deep Learning models such as LSTM or Transformers
-* Improve dataset size for better accuracy
-* Add API integration for real-time news verification
-
-## Conclusion
-
-This project demonstrates how machine learning and NLP can be used to detect fake news and reduce the spread of misinformation on digital platforms.
+## ▶️ How to Run
+```bash
+git clone https://github.com/Nadendla25/fake_news_detection
+cd fake_news_detection
+pip install -r requirements.txt
+python main.py
 
